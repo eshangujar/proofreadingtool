@@ -1,8 +1,8 @@
-**Proofreading Tool** 
+#**PROOFREADING TOOL**
 
 The Proofreading Tool is a project that combines computer vision and natural language processing techniques to perform grammar error correction on scanned or digitally captured documents. It utilizes YOLO for text detection, Tesseract for optical character recognition (OCR), and a T5 model for the grammar error correction task.
 
-Features
+##Features
 Text Detection: The YOLO (You Only Look Once) algorithm is employed to detect text regions in images or documents. It provides bounding box coordinates for each detected text region.
 
 Optical Character Recognition (OCR): The detected text regions are then passed through Tesseract, a popular OCR engine. Tesseract converts the text regions into machine-readable text.
@@ -20,6 +20,10 @@ Install the required dependencies:
 pip install -r requirements.txt
 
 The YOLO weights for text detection can be downloaded from darknet: https://pjreddie.com/darknet/yolo/.
+
+The COCO-Text V2.0 dataset for custom training yolov3 can be downloaded from here: https://www.kaggle.com/datasets/c7934597/cocotext-v20
+The C4_200M dataset for Grammar Error can be downloaded from here: https://www.kaggle.com/datasets/a0155991rliwei/c4-200m
+
 
 
 
