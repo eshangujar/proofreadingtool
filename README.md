@@ -9,7 +9,8 @@ Optical Character Recognition (OCR): The detected text regions are then passed t
 
 Grammar Error Correction: The OCR-generated text is processed using a T5 model, which is fine-tuned for the specific task of grammar error correction. The T5 model examines the text and suggests corrections for any detected grammar errors.
 
-Installation
+# Installation
+
 Clone the repository:
 
 
