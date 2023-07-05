@@ -12,13 +12,11 @@ Grammar Error Correction: The OCR-generated text is processed using a T5 model, 
 Installation
 Clone the repository:
 
-bash
-Copy code
+
 git clone https://github.com/eshangujar/proofreading-tool.git
 Install the required dependencies:
 
-bash
-Copy code
+
 pip install -r requirements.txt
 
 The YOLO weights for text detection can be downloaded from darknet: https://pjreddie.com/darknet/yolo/.
