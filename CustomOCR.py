@@ -38,7 +38,7 @@ with open('yolov3-classes.txt', 'r') as f:
 
 COLORS = np.random.uniform(0, 255, size=(len(classes), 3))
 
-net = cv2.dnn.readNet('model/yolov3_6000.weights', 'cfg/yolov3-custom.cfg')
+net = cv2.dnn.readNet('model/yolov3_finetuned_coco.weights', 'cfg/yolov3-custom.cfg')
 
 blob = cv2.dnn.blobFromImage(image, scale, (416,416), (0,0,0), True, crop=False)
 
